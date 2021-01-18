@@ -1,0 +1,16 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right, blue, violet);
+    padding: 0;
+    margin: 10px;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 400px;
+    background-color: white;
+    justify-self: center;
+}
