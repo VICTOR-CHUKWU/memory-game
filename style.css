@@ -5,6 +5,13 @@ body{
     background: linear-gradient(to right, blue, violet);
     padding: 0;
     margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h3{
+    color: white;
+    display: flex;
 }
 .grid{
     display: flex;
